@@ -36,6 +36,14 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+== 9.15.1 P7 (10 de março de 2025)
+
+O patch 9.15.1 P7 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. O BlueXP  solicitará que você atualize seus sistemas existentes para esta versão de patch.
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.15.1P7["Veja a lista de bugs corrigidos no patch P7"^] (É necessário iniciar sessão no site de suporte da NetApp).
+
+
+
 == 9.15.1 P6 (20 de janeiro de 2025)
 
 O patch 9.15.1 P6 já está disponível para o Cloud Volumes ONTAP para todos os provedores de nuvem. O BlueXP  solicitará que você atualize seus sistemas existentes para esta versão de patch.
@@ -102,7 +110,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-storage.html#az
 
 === Implante pares de HA em zonas de disponibilidade únicas no Azure
 
-A partir do Cloud Volumes ONTAP 9.15.1, é possível implantar instâncias de máquina virtual (VM) no modo HA em zonas de disponibilidade únicas (AZs) no Azure. Ao contrário das implantações não zonais anteriores, o Cloud Volumes ONTAP 9.15.1 usa conjuntos de escala de máquinas virtuais da Microsoft no modo de orquestração flexível para implantar todos os recursos, incluindo domínios de falha separados dentro da mesma AZ, garantindo a disponibilidade ideal. Este modo de implantação, por padrão, usa discos gerenciados Premium SSD v2 quando os seguintes critérios são atendidos:
+A partir do Cloud Volumes ONTAP 9.15.1, é possível implantar instâncias de máquina virtual (VM) no modo HA em zonas de disponibilidade únicas (AZs) no Azure. Ao contrário das implantações não zonais anteriores, o Cloud Volumes ONTAP 9.15.1 usa conjuntos de escala de máquinas virtuais da Microsoft no modo de orquestração flexível para implantar todos os recursos, incluindo domínios de falha separados dentro da mesma AZ, garantindo a disponibilidade ideal. Este modo de implantação, por padrão, usa discos gerenciados Premium SSD v2 quando as seguintes condições são atendidas:
 
 * A versão do Cloud Volumes ONTAP é 9.15.1 ou posterior.
 * A região e a zona selecionadas suportam discos gerenciados Premium SSD v2. Para obter informações sobre as regiões suportadas,  https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/["Site do Microsoft Azure: Produtos disponíveis por região"^]consulte . Para saber como adicioná-los, https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html#launching-a-cloud-volumes-ontap-ha-pair-in-azure["Lançamento de um par de HA do Cloud Volumes ONTAP no Azure"^] consulte .
